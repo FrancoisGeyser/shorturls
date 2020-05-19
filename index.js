@@ -4,7 +4,7 @@ var db = require('diskdb');
 db = db.connect('./data', ['urls']);
 const shortid = require('shortid');
 shortid.characters('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-');
-const baseUrl = 'surls.host'
+const baseUrl = 'fg-shorturls.herokuapp.com'//'surls.host'
 app.set('subdomain offset',1)
 
 app.get('/api/surls/getall', (req, res) => {
